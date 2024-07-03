@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Other styles... */
+
+/* Media Queries for Responsive Logo */
+@media (max-width: 768px) { /* Mobile Styles */
+  .header .logo {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    src: url('C:\Users\nicol\Desktop\ferreteria\front\produmaq-app\src\imagenes\imagen2.png'); /* Replace with actual path */
+  }
+}
+
+@media (min-width: 769px) { /* Desktop Styles */
+  .header .logo {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    src: url('C:\Users\nicol\Desktop\ferreteria\front\produmaq-app\src\imagenes\imagen1.png'); /* Replace with actual path */
+  }
+}
+
+/* Header Styles */
+.header {
+  background-color: #478ac9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .title {
+  color: #fff;
+  font-size: 45px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header .logo {
+  width: auto;
+  height: auto; /* Removed for media queries */
+}
+
+/* Search Section Styles */
+.search-section {
+  padding: 40px;
+  text-align: center;
+
+}
+
+.search-section .search-button {
+  /* agregar margen */
+  margin-top: 20px;
+  background-color: #478ac9;
+  color: #fff;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Other styles... */
+
+/* Footer Styles */
+.footer {
+  background-color: #478ac9;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.product-info {
+  text-align: center;
+}

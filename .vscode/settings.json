@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c18c00b9-ea63-40cc-b856-8c8294bee49b/resourceGroups/grupo_1/providers/Microsoft.Web/sites/Produmaq-stock",
+    "appService.deploySubpath": "."
+}
